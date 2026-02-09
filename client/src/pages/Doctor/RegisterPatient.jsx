@@ -67,7 +67,7 @@ const RegisterPatient = () => {
       <Col span={24}>
         <Card bordered={true}>
           <Title level={4} style={{ textAlign: 'center', marginBottom: 20 }}>
-            Register New Patient
+            Register New User
           </Title>
           <Form
             form={form}

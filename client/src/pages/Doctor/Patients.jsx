@@ -56,7 +56,7 @@ const Patients = () => {
         ) : (
           <Card bordered={true}>
             <Title level={4} style={{ marginBottom: 20 }}>
-              Patients with Access
+              Users with Access
             </Title>
             <List
               itemLayout={screens.xs ? 'vertical' : 'horizontal'}
@@ -74,7 +74,7 @@ const Patients = () => {
                         type='primary'
                         onClick={() => navigate(patient.address)}
                       >
-                        Access Patient
+                        Access Users
                       </Button>
                     </Col>
                   </Row>

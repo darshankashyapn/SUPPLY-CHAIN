@@ -6,7 +6,7 @@ import { MenuOutlined, LogoutOutlined, WalletOutlined } from '@ant-design/icons'
 import useIsLoggedIn from '@hooks/useIsLoggedIn';
 import useWallet from '@hooks/useWallet';
 
-import Logo from '@assets/logo-nobg.png';
+import Logo from '@assets/image.png';
 
 const { Title } = Typography;
 const { Header: AntdHeader } = Layout;
@@ -60,7 +60,7 @@ const Header = ({ onMenuClick = () => {} }) => {
               </Col>
               <Col>
                 <Title level={screens.xs ? 4 : 3} style={{ marginBottom: 0, marginLeft: screens.xs ? 10 : 15 }}>
-                  MEDICAL CHAIN
+                  SUPPLY CHAIN
                 </Title>
               </Col>
             </Row>

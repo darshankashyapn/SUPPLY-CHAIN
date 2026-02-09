@@ -54,8 +54,8 @@ const Profile = () => {
           { key: 4, label: 'Gender', children: patientData.gender },
           { key: 5, label: 'Email', children: patientData.email },
           { key: 6, label: 'Contact Number', children: patientData.contactNumber },
-          { key: 7, label: 'Health Issues', children: patientData.healthIssues },
-          { key: 8, label: 'Blood Group', children: patientData.bloodGroup },
+          { key: 7, label: 'Product issue', children: patientData.healthIssues },
+          { key: 8, label: 'Comapany', children: patientData.bloodGroup },
           { key: 9, label: 'Aadhaar Number', children: patientData.aadhaarNumber },
           {
             key: 10,

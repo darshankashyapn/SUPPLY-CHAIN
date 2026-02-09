@@ -66,7 +66,7 @@ const RegisterDoctor = () => {
       <Col span={24}>
         <Card bordered={true}>
           <Title level={4} style={{ textAlign: 'center', marginBottom: 20 }}>
-            Register New Doctor
+            Register New Supplier
           </Title>
           <Form
             form={form}

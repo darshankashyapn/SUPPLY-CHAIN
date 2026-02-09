@@ -183,7 +183,7 @@ const Doctors = () => {
             {state.doctorsWithAccess.length > 0 && (
               <Card bordered style={{ marginBottom: 30 }}>
                 <Title level={4} style={{ marginBottom: 20 }}>
-                  Doctors with Access
+                  Supplier with Access
                 </Title>
                 <List
                   itemLayout={screens.xs ? 'vertical' : 'horizontal'}
@@ -232,7 +232,7 @@ const Doctors = () => {
             )}
             <Card bordered>
               <Title level={4} style={{ marginBottom: 20 }}>
-                Search Doctors and Grant Access
+                Search Suppliers and Grant Access
               </Title>
               <Search
                 placeholder='Search doctors by name, specialization, or hospital'
@@ -319,8 +319,8 @@ const Doctors = () => {
               { key: 3, label: 'Gender', children: state.selectedDoctor.gender},
               { key: 4, label: 'Email', children: state.selectedDoctor.email },
               { key: 5, label: 'Contact Number', children: state.selectedDoctor.contactNumber },
-              { key: 6, label: 'Current Working Hospital', children: state.selectedDoctor.currentWorkingHospital },
-              { key: 7, label: 'Specialization', children: state.selectedDoctor.specialization },
+              { key: 6, label: 'Company Name', children: state.selectedDoctor.currentWorkingHospital },
+              { key: 7, label: 'Domain', children: state.selectedDoctor.specialization },
               {
                 key: 8,
                 label: 'Public Key',

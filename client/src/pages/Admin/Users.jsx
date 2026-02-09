@@ -39,12 +39,12 @@ const Users = () => {
         ) : (
           <Row gutter={[16, 24]}>
             <Col xs={24} sm={12}>
-              <Card title="Total Doctors" bordered>
+              <Card title="Total Suppliers" bordered>
                 <Title level={3}>{state.doctorsCount}</Title>
               </Card>
             </Col>
             <Col xs={24} sm={12}>
-              <Card title="Total Patients" bordered>
+              <Card title="Total users" bordered>
                 <Title level={3}>{state.patientsCount}</Title>
               </Card>
             </Col>

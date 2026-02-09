@@ -241,7 +241,7 @@ const RecordList = ({ patientAddress }) => {
         ) : (
           <Card bordered={true}>
             <Title level={4} style={{ marginBottom: 20 }}>
-              Patient Medical Records
+              SUPPLY Records
             </Title>
               <List
                 itemLayout={screens.xs ? 'vertical' : 'horizontal'}

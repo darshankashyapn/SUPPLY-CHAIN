@@ -38,12 +38,12 @@ const Sidenav = () => {
       },
       {
         key: 'doctor-management',
-        label: <span className='menu-heading'>Doctor Management</span>,
+        label: <span className='menu-heading'>Supply Management</span>,
         type: 'group',
         children: [
           {
             key: '2',
-            label: 'Register Doctor',
+            label: 'Register Supplier',
             icon: <UserAddOutlined />,
             onClick: () => handleMenuClick('/register-doctor'),
           },
@@ -91,7 +91,7 @@ const Sidenav = () => {
       },
       {
         key: 'patient-management',
-        label: <span className='menu-heading'>Patient Management</span>,
+        label: <span className='menu-heading'>User Management</span>,
         type: 'group',
         children: [
           {

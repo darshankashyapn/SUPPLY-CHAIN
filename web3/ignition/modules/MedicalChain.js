@@ -3,9 +3,9 @@
 
 const { buildModule } = require("@nomicfoundation/hardhat-ignition/modules");
 
-const ADDRESS = "0x425a9700d783bAC4CD3c9EE8578b9FF8a14EBF96";
-const NAME = "ADMIN";
-const EMAIL = "example@okmail.com";
+const ADDRESS = "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266";
+const NAME = "Admin";
+const EMAIL = "admin@okmail.com";
 const CONTACT = "1234567890";
 
 module.exports = buildModule("MedicalChainModule", (m) => {

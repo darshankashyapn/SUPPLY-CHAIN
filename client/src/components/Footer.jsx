@@ -8,7 +8,7 @@ const Footer = () => {
       <Divider style={{ marginTop: 0 }} />
       <Row justify='center'>
         <Col>
-          <p>© 2024 Medical Chain. All rights reserved.</p>
+          <p>© 2024 SUPPLY Chain. All rights reserved.</p>
         </Col>
       </Row>
     </AntdFooter>

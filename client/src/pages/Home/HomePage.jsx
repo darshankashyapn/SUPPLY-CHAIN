@@ -16,10 +16,10 @@ const HomePage = () => {
       <Content className='hero'>
         <div className='hero-content'>
           <Title level={screens.xs ? 2 : 1}>
-            Welcome to Medical Chain System
+            Welcome to Supply Chain System
           </Title>
           <Paragraph>
-            Our Electronic Health Records (EHR) system uses blockchain technology to ensure the security and privacy of your medical data.
+            Our Electronic Supply Records (ESR) system uses blockchain technology to ensure the security and privacy of your supply data.
           </Paragraph>
           <Button type='primary' size='large'>
             Learn More
@@ -32,7 +32,7 @@ const HomePage = () => {
             <Card className='content-card' bordered={false}>
               <Title level={screens.xs ? 3 : 2}>Secure</Title>
               <Paragraph>
-                Our system ensures that all medical records are encrypted and stored securely on the blockchain. Unauthorized access is prevented through robust security protocols.
+                Our system ensures that all supply records are encrypted and stored securely on the blockchain. Unauthorized access is prevented through robust security protocols.
               </Paragraph>
             </Card>
           </Col>
@@ -40,7 +40,7 @@ const HomePage = () => {
             <Card className='content-card' bordered={false}>
               <Title level={screens.xs ? 3 : 2}>Transparent</Title>
               <Paragraph>
-                With blockchain technology, every transaction is recorded and can be traced for added transparency. Patients and healthcare providers can verify records easily and accurately.
+                With blockchain technology, every transaction is recorded and can be traced for added transparency. 
               </Paragraph>
             </Card>
           </Col>
@@ -73,7 +73,7 @@ const HomePage = () => {
             <Card className='content-card' bordered={false} style={{ height: '100%' }}>
               <Title level={screens.xs ? 3 : 2}>Get Started</Title>
               <Paragraph>
-                Ready to experience the future of healthcare? Get started with our EHR system today. Contact us to schedule a demo or request more information.
+                Ready to experience the future of supply? Get started with our ESR system today. Contact us to schedule a demo or request more information.
               </Paragraph>
               <Button type='primary'>Contact Us</Button>
             </Card>

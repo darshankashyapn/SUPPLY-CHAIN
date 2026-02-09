@@ -24,7 +24,7 @@ const MainLayout = () => {
         <div className='sider-top'>
           <img src={Logo} alt='logo' width={50} />
           <Title level={screens.xs ? 5 : 4} style={{ margin: '10px 0' }}>
-            MEDICAL CHAIN
+            SUPPLY CHAIN
           </Title>
         </div>
         <Divider style={{ marginTop: 0, marginBottom: 5 }} />
